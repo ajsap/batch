@@ -1,6 +1,8 @@
 :: TransactorTech: DA Cleanup v1.1
 :: Created: 2015-12-15 | Andy Saputra
 :: E: andy.saputra@transactortech.com
+:: ============================================================
+:: Will cleanup *.txt & *.7z older than 21 days on %tgt_maint%
 :: To use, simply set path to 'tgt_maint' variables below:
 :: ============================================================
 :: Turning off the technical commands from the screen..
