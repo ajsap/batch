@@ -20,4 +20,6 @@ forfiles /P %tgt_maint2% /S /M *.7z /D -21 -C "cmd /c del @path"
 :: Undefining variables..
 set target_maint1=
 set target_maint2=
+::
+exit
 :: End of this batch file :)
