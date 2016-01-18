@@ -1,9 +1,9 @@
-:: TransactorTech: RepliCat v1.0
+:: TransactorTech: RepliCat v1.0 - A Simple Tomcat Replicator
 :: Created: 2016-01-15 | Andy Saputra
 :: E: andy.saputra@transactortech.com
 :: ============================================================
 :: -> 1-way folder syncronization script (pull method)
-:: -> run this from DR site
+:: -> schedule daily and run this script from DR site
 :: ============================================================
 :: Turning off the technical commands from the screen..
 @echo off
