@@ -25,7 +25,7 @@ echo Changing directory to Tomcat
 cd T:\src
 ::
 echo Replicating Tomcat to DR Server (this server)
-robocopy T:\src\ C:\dst /Z /E
+robocopy T:\src\ C:\dst\ /Z /E
 ::
 exit
 :: End of this batch file :)
