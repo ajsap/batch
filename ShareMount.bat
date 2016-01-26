@@ -8,6 +8,10 @@
 ECHO Detaching any previous drive connected to S:
 NET USE S: /D /YES
 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:: Make sure TCP+UDP 135-139 & 445 is opened on remote side. ::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ECHO Connecting to Samba S: drive..
 NET USE S: \\ip-or-address\share /user:Username Password
 
