@@ -3,6 +3,7 @@
 :: E: andy.saputra@transactortech.com
 :: ==============================================================
 :: -> This batch file will process Thor reports in D:\ThorFiles
+:: -> Schedule monthly on the 1st every 1.30 a.m. (server time)
 :: ==============================================================
 :: 1> It will rename Thor reports from .TXT to .CSV
 :: 2> Send them to manager@company.tld
