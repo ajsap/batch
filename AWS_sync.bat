@@ -32,7 +32,6 @@ if errorlevel 0 goto :cleanup
 echo [INFO] We have a problem..
 C:\BLAT\blat.exe -body "We have failed to sync %src_folder% to s3://%tgt_s3buck%/%tgt_s3fold%." -u user -pw password -server smtp-host.domain.tld -f sender@domain.tld -subject "[%src_server%] AWS Sync error" -try 30 -to "recipients@domain.tld"
 goto :exit
-:: Undefining variables..
 :cleanup
 echo [INFO] All done, no fatal errors, performing clean up on %src_folder%..
 echo del /s /q %src_folder%
@@ -42,5 +41,6 @@ set src_server=
 set src_folder=
 set tgt_s3buck=
 set tgt_s3fold=
-::exit
+exit
+:: Variables Undefined..
 :: End of this batch file :)
