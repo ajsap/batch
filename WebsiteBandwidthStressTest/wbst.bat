@@ -1,6 +1,9 @@
 :: Website Bandwidth Stress Test v1.0-BAT
 :: Created: 2017-11-23 | Andy Saputra
 :: https://saputra.ch
+:: --------------------------------------
+:: GNU Wget for Windows can be downloaded
+:: @ https://eternallybored.org/misc/wget
 @echo off
 set /a count=0
 :start
