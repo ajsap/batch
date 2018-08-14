@@ -1,0 +1,2 @@
+select vdisk file="D:\DATA.vhdx"
+attach vdisk
